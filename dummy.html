@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>VR TOY STORE</title>
+ <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+</head>
+<body>
+ <a-scene>
+
+  <a-entity id='camera' camera>
+
+  <a-assets>
+    <a-asset-item id="crane" src="./Truck Crane.glb"></a-asset-item>
+  </a-assets>
+
+  <a-entity gltf-model="#crane" position="-2 0 -1"></a-entity>
+
+  <a-plane width="5" height="10" color="yellow"></a-plane>
+</a-entity>
+ </a-scene>
+</body>
+</html>
